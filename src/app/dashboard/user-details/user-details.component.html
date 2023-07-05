@@ -1,0 +1,81 @@
+<!-- <header>
+  <mat-toolbar class="head">
+    <mat-toolbar-row>
+      <div class="search-container">
+        <mat-form-field class="for">
+          <mat-icon matPrefix>search</mat-icon>
+          <input matInput placeholder="" [disabled]="isSearchInputDisabled">
+        </mat-form-field>
+      </div>
+      <div class="button-container">
+        <button mat-button color="accent" [disabled]="isCreateButtonDisabled">Create</button>
+        <button mat-button class="cre" [disabled]="!isSaveButtonEnabled">Save</button>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header> -->
+
+<h2>Edit User</h2>
+
+<form [formGroup]="userForm" (ngSubmit)="saveUser()">
+  <div>
+    <label for="firstName">First Name:</label>
+    <input id="firstName" type="text" formControlName="firstName" required>
+    <div *ngIf="userForm.controls['firstName'].invalid && (userForm.controls['firstName'].dirty || userForm.controls['firstName'].touched)">
+      <div *ngIf="userForm.controls['firstName'].errors?.['required']">First Name is required.</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="lastName">Last Name:</label>
+    <input id="lastName" type="text" formControlName="lastName" required>
+    <div *ngIf="userForm.controls['lastName'].invalid && (userForm.controls['lastName'].dirty || userForm.controls['lastName'].touched)">
+      <div *ngIf="userForm.controls['lastName'].errors?.['required']">Last Name is required.</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input id="email" type="email" formControlName="email" required>
+    <div *ngIf="userForm.controls['email'].invalid && (userForm.controls['email'].dirty || userForm.controls['email'].touched)">
+      <div *ngIf="userForm.controls['email'].errors?.['required']">Email is required.</div>
+      <div *ngIf="userForm.controls['email'].errors?.['email']">Invalid email format.</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="street">Street:</label>
+    <input id="street" type="text" formControlName="street" required>
+    <div *ngIf="userForm.controls['street'].invalid && (userForm.controls['street'].dirty || userForm.controls['street'].touched)">
+      <div *ngIf="userForm.controls['street'].errors?.['required']">Street is required.</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="city">City:</label>
+    <input id="city" type="text" formControlName="city" required pattern="^[a-zA-Z ]+$">
+    <div *ngIf="userForm.controls['city'].invalid && (userForm.controls['city'].dirty || userForm.controls['city'].touched)">
+      <div *ngIf="userForm.controls['city'].errors?.['required']">City is required.</div>
+      <div *ngIf="userForm.controls['city'].errors?.['pattern']">Invalid city format.</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="zipcode">Zipcode:</label>
+    <input id="zipcode" type="text" formControlName="zipcode" required pattern="^[0-9]+$">
+    <div *ngIf="userForm.controls['zipcode'].invalid && (userForm.controls['zipcode'].dirty || userForm.controls['zipcode'].touched)">
+      <div *ngIf="userForm.controls['zipcode'].errors?.['required']">Zipcode is required.</div>
+      <div *ngIf="userForm.controls['zipcode'].errors?.['pattern']">Invalid zipcode format.</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="country">Country:</label>
+    <input id="country" type="text" formControlName="country" required>
+    <div *ngIf="userForm.controls['country'].invalid && (userForm.controls['country'].dirty || userForm.controls['country'].touched)">
+      <div *ngIf="userForm.controls['country'].errors?.['required']">Country is required.</div>
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="userForm.invalid">Save</button>
+</form>

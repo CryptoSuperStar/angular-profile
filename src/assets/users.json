@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "johndoe@gmail.com",
+        "street": "123 Main Street",
+        "city": "New York",
+        "zipcode": "10001",
+        "country": "United States",
+        "avatar": "https://i.pravatar.cc/150?img=0"
+    },
+    {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "email": "janesmith@gmail.com",
+        "street": "456 1st Street",
+        "city": "Los Angeles",
+        "zipcode": "90001",
+        "country": "Morocco",
+        "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+        "id": 3,
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "email": "michaeljohnson@gmail.com",
+        "street": "789 2nd Street",
+        "city": "Chicago",
+        "zipcode": "60601",
+        "country": "Argentina",
+        "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+        "id": 4,
+        "firstName": "Walter",
+        "lastName": "Williams",
+        "email": "walterwilliams@gmail.com",
+        "street": "321 3rd Street",
+        "city": "Houston",
+        "zipcode": "77001",
+        "country": "Brazil",
+        "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+        "id": 5,
+        "firstName": "David",
+        "lastName": "Jones",
+        "email": "davidjones@gmail.com",
+        "street": "654 4th Street",
+        "city": "Phoenix",
+        "zipcode": "85001",
+        "country": "Canada",
+        "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+        "id": 6,
+        "firstName": "Maria",
+        "lastName": "Brown",
+        "email": "mariabrown@gmail.com",
+        "street": "987 5th Street",
+        "city": "Philadelphia",
+        "zipcode": "19101",
+        "country": "China",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+        "id": 7,
+        "firstName": "Charles",
+        "lastName": "Davis",
+        "email": "charlesdavis@gmail.com",
+        "street": "741 6th Street",
+        "city": "San Antonio",
+        "zipcode": "78201",
+        "country": "France",
+        "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+        "id": 8,
+        "firstName": "Patrick",
+        "lastName": "Miller",
+        "email": "PatrickMiller@gmail.com",
+        "street": "852 7th Street",
+        "city": "San Diego",
+        "zipcode": "92101",
+        "country": "Germany",
+        "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+        "id": 9,
+        "firstName": "Robert",
+        "lastName": "Wilson",
+        "email": "robertwilson@gmail.com",
+        "street": "963 8th Street",
+        "city": "Dallas",
+        "zipcode": "75201",
+        "country": "India",
+        "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+        "id": 10,
+        "firstName": "Jennifer",
+        "lastName": "Moore",
+        "email": "Jennifermoore@gmail.com",
+        "street": "159 9th Street",
+        "city": "San Jose",
+        "zipcode": "95101",
+        "country": "Italy",
+        "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+        "id": 11,
+        "firstName": "Kelly",
+        "lastName": "Taylor",
+        "email": "kellytaylor@gmail.com",
+        "street": "753 10th Street",
+        "city": "Austin",
+        "zipcode": "73301",
+        "country": "Japan",
+        "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+        "id": 12,
+        "firstName": "Zayn",
+        "lastName": "Anderson",
+        "email": "zaynanderson@gmail.com",
+        "street": "258 11th Street",
+        "city": "Jacksonville",
+        "zipcode": "32201",
+        "country": "Mexico",
+        "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+        "id": 13,
+        "firstName": "Caston",
+        "lastName": "Thomas",
+        "email": "castonthomas@gmail.com",
+        "street": "456 12th Street",
+        "city": "Fort Worth",
+        "zipcode": "76101",
+        "country": "Russia",
+        "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+        "id": 14,
+        "firstName": "Barbaro",
+        "lastName": "Jackson",
+        "email": "barbarojackson@gmail.com",
+        "street": "753 13th Street",
+        "city": "Columbus",
+        "zipcode": "43201",
+        "country": "South Africa",
+        "avatar": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+        "id": 15,
+        "firstName": "kentaro",
+        "lastName": "White",
+        "email": "kentarowhite@gmail.com",
+        "street": "951 14th Street",
+        "city": "Charlotte",
+        "zipcode": "28201",
+        "country": "South Korea",
+        "avatar": "https://i.pravatar.cc/150?img=14"
+    }
+]

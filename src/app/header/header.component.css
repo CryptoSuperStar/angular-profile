@@ -1,0 +1,33 @@
+/* .spacer { */
+    /* flex: 1 1 auto; */
+  /* } */
+  
+  .search-container {
+    flex: 1;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .head{
+    background-color: gainsboro;
+    border-bottom: 1px solid #c1bfbf;
+    padding: 10px 0;
+  }
+
+  .cont{
+    padding: 10px;
+    /* border-radius: 10px; */
+  }
+
+  .cre{
+    background-color: #d6b7d6;
+  }
+
+

@@ -1,0 +1,13 @@
+<header>
+  <mat-toolbar class="head">
+    <mat-toolbar-row>
+      <mat-form-field>
+        <input matInput [(ngModel)]="searchText" (input)="search()" placeholder="Search here" [disabled] ="editMode">
+      </mat-form-field>
+      <div class="button-container">
+        <button mat-button class="cre" (click)="createUser()" [disabled] ="editMode">Create</button>
+        <button mat-button color="primary" [disabled] ="!editMode">Save</button>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>

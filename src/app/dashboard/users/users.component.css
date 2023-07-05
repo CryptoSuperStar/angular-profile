@@ -1,0 +1,47 @@
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+.user-card {
+  width: 100%;
+  cursor: pointer;
+}
+
+.avatar-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 60px; /* Adjust the width and height to fit your design */
+  height: 60px;
+  margin-right: 10px; /* Add margin to separate the avatar from the name */
+}
+
+.avatar-circle img {
+  width: 100%;
+  height: auto;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-info {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 35px;
+}
+
+.user-info li {
+  margin-bottom: 10px;
+}

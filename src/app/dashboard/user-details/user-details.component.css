@@ -1,0 +1,75 @@
+/* Styles for the form */
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .search-container {
+    flex: 1;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .head{
+    background-color: gainsboro;
+    border-bottom: 1px solid #c1bfbf;
+    padding: 10px 0;
+  }
+
+  .cont{
+    padding: 10px;
+    /* border-radius: 10px; */
+  }
+
+  .cre{
+    background-color: #d6b7d6;
+  }
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
